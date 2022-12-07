@@ -14,7 +14,7 @@ builder.Services.AddCors(options =>
             builder
             .AllowAnyMethod()
             .AllowAnyHeader()
-            .WithOrigins("http://localhost:3000", "https://appname.azurestaticapps.net");
+            .WithOrigins("http://localhost:3000", "https://gentle-sky-0d27fa810.2.azurestaticapps.net");
         });
 });
 
